@@ -4,6 +4,10 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link href='https://fonts.googleapis.com/css?family=Condiment' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Hind+Vadodara:400,500' rel='stylesheet' type='text/css'>
+  <script>
+  function popup(){
+    window.open("https://thefloatinglanternblog.wordpress.com/", "popup", "height=400, width=300", "top=200, left=400");
+  }</script>
 <style>
   body{
     text-align: center;
@@ -34,27 +38,57 @@
     color: slategray;
   font-family: 'Hind Vadodara', sans-serif;
   }
-
   header {
     padding: 110px;
   }
-
  #what-i-do {
     background-color: MistyRose;
     overflow: hidden;
+    padding: 50px;
   }
-
   #who-am-i {
     background-color: white;
     overflow: hidden;
     color: steelblue;
     text-align: center;
   }
+
+  #how-i-work {
+    background: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/old_map.png);
+    padding: 20px;
+    overflow: hidden;
+
+  }
+
+  .contact-me-1 {
+    width: 425px;
+    float: left;
+    overflow: hidden;
+  }
+
+    .contact-me-2 {
+    width: 425px;
+    float: left;
+    overflow: hidden;
+  }
+
+  .two-thirds {
+    width: 580px;
+    float: left;
+    text-align: justify;
+    margin-right: 20px;
+
+  }
+  .one-third {
+    width: 300px;
+    float: left;
+    text-align: justify;
+  }
+
   .container {
     width: 900px;
     margin: 0 auto;
   }
-
 
   #contact-me {
     background-color: MistyRose;
@@ -64,20 +98,18 @@
 
   article {
     background-color: lightgray;
-    height: 150px;
+    height: 180px;
     width: 280px;
     float: left;
     margin: 5px;
     border-radius: 3px;
     padding: 5px;
   }
-
   nav {
     float: left;
     font-size: 15px;
     color: steelblue;
   }
-
   }
 </style>
 </head>
@@ -108,11 +140,18 @@
 <section id="contact-me">
   <div class="container">
 <h2>Contact Me<h2>
-<article><i class="fa fa-mobile fa-2x"></i>
+<article class="contact-me-1"><i class="fa fa-mobile fa-2x"></i>
 <p> (786)925-2878</article>
-  <article><i class="fa fa-envelope-o fa-2x"></i>
-<p>kelreid08@gmail.com</article></container>
+  <article class="contact-me-2"><i class="fa fa-envelope-o fa-2x"></i>
+<p>kelreid08@gmail.com</article></div>
   </section>
+  <section id="how-i-work">
+    <div class="container"><h1>How I work</h1>
+      <p class="two-thirds">I will carefully research and organize specific details in order to create a unique marketing campaign. <input type="button" value="check out my fees here" onClick="popup()"></p>
+        <p class="one-third">
+          Meeting Options: Phone Skype Google Hangouts  
+          
+          </p></div></section>
 <footer>
 <a href="https://twitter.com/Reid_my_soul"><i class="fa fa-twitter"></i></a>
 <a href="https://instagram.com/reid_my_soul"><i class="fa fa-instagram"></i></a>
