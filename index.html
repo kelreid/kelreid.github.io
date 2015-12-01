@@ -130,6 +130,11 @@ background: linear-gradient(to left, #fe8c00 , #f83600); /* W3C, IE 10+/ Edge, F
   }
 
   </style>
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js"></script>
+  <link href=
+  "https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/magnific-popup.min.css" rel="stylesheet">
+
 </head>
 <body>
   <header>
@@ -142,12 +147,13 @@ background: linear-gradient(to left, #fe8c00 , #f83600); /* W3C, IE 10+/ Edge, F
                 <li><a href="http://mikelreid.me/contact">Contact</a>
       </ul> </section></section>
    
- <br>
- <br>
+
   <img width="200" src="http://i.imgur.com/2dORvgq.png" alt="MReid Logo">
 <h1><em>Unique</em> and <em>Powerful</em> Ad Campaigns</h1>
-<p> I am an Advertising student at Miami International Univeristy of Art and Design. I specialize in Digital Marketing</header>
-<br>
+<p> I am an Advertising student at Miami International Univeristy of Art and Design. I specialize in Digital Marketing
+
+</header>
+
 <section id="what-i-do">
   <div class="container">
 <h1>What I do</h1>
@@ -160,9 +166,12 @@ background: linear-gradient(to left, #fe8c00 , #f83600); /* W3C, IE 10+/ Edge, F
 
 <section id="latest-work">
             <h1>My latest work</h1>
-            <img width="400" height="560" src="http://i.imgur.com/3gaCnp5.jpg" alt="Art deco Triad colors">
-            <img width="400" height="560" src="http://i.imgur.com/eTOBS8v.jpg" alt="Art Deco complimentary colors">
-          <img width="400" height="560" src="http://i.imgur.com/VxpdRCr.jpg" alt="Steam Punk">
+            <a class="test-popup-link" href="http://i.imgur.com/3gaCnp5.jpg">
+            <img width="400" height="560" src="http://i.imgur.com/3gaCnp5.jpg" alt="Art deco Triad colors"></a>
+            <a class="test-popup-link" href="http://i.imgur.com/eTOBS8v.jpg">
+            <img width="400" height="560" src="http://i.imgur.com/eTOBS8v.jpg" alt="Art Deco complimentary colors"></a>
+          <a class="test-popup-link" href="http://i.imgur.com/VxpdRCr.jpg">
+            <img width="400" height="560" src="http://i.imgur.com/VxpdRCr.jpg" alt="Steam Punk"></a>
         </section>
 
   <section id="how-i-work">
@@ -178,4 +187,10 @@ background: linear-gradient(to left, #fe8c00 , #f83600); /* W3C, IE 10+/ Edge, F
 <a href="https://twitter.com/Reid_my_soul"><i class="fa fa-twitter"></i></a>
 <a href="https://instagram.com/reid_my_soul"><i class="fa fa-instagram"></i></a>
 <a href="https://www.linkedin.com/pub/mikel-reid/ba/682/11a"><i class="fa fa-linkedin"></i></a></footer>
+
+<script>$('.test-popup-link').magnificPopup({
+  type: 'image',
+  gallery: {enabled:true}
+  // other options
+});</script>
 </body>
