@@ -1,13 +1,14 @@
-
-  body{
+ body{
     text-align: center;
     font-family: "lucida Sans Unicode", sans-serif;
     background-image: url(https://static.pexels.com/photos/8974/nature-yellow-plant-orange-large.jpg);
     background-size: contain;
   }
+
   a {
     color: #de6900;
     font-size: 30px;
+    display: inline;
   }
   
   a:visited {
@@ -103,19 +104,15 @@ background: linear-gradient(to left, #fe8c00 , #f83600); /* W3C, IE 10+/ Edge, F
     border-radius: 3px;
     padding: 5px;
   }
-  .nav li {
-    float: auto;
-    float: auto;
-    font-size: 15px;
+  nav li {
     display: inline;
   }
 
-  .nav a {
+  nav a {
     color: #de6900;
+    font-size: 30px;
   }
 
   header section {
     background-color: white;
   }
-
-
