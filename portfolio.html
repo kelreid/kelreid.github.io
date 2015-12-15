@@ -8,7 +8,8 @@
   function popup(){
     window.open("http://mikelreid.me/fees.html", "popup", "height=400, width=300, top=200, left=400");
   }</script></head>
-<style>
+
+  
   body{
     text-align: center;
     font-family: "lucida Sans Unicode", sans-serif;
@@ -56,7 +57,20 @@
   header section {
     background-color: white;
   }</style>
-<body><section id="Portfolio">
+<body>
+   <header>
+    <section class="nav"><section class="container">
+      <ul>
+        <li><a href="http://mikelreid.me/">Home</a>
+          <li><a href="http://mikelreid.me/about.html">About</a>
+            <li><a href="http://mikelreid.me/portfolio">Portfolio</a>
+              <li><a href="http://mikelreid.me/resume">Resume</a>
+                <li><a href="http://mikelreid.me/contact">Contact</a>
+      </ul> </section></section>
+   
+
+  <img width="200" src="http://i.imgur.com/2dORvgq.png" alt="MReid Logo">
+  <section id="Portfolio">
             <h1>My latest work</h1>
             <a class="test-popup-link" href="http://i.imgur.com/3gaCnp5.jpg">
             <img width="400" height="560" src="http://i.imgur.com/3gaCnp5.jpg" alt="Art deco Triad colors"></a>
@@ -64,4 +78,16 @@
             <img width="400" height="560" src="http://i.imgur.com/eTOBS8v.jpg" alt="Art Deco complimentary colors"></a>
           <a class="test-popup-link" href="http://i.imgur.com/VxpdRCr.jpg">
             <img width="400" height="560" src="http://i.imgur.com/VxpdRCr.jpg" alt="Steam Punk"></a>
-        </section></body>
+        </section>
+          <footer>
+
+<a href="https://twitter.com/Reid_my_soul"><i class="fa fa-twitter"></i></a>
+<a href="https://instagram.com/reid_my_soul"><i class="fa fa-instagram"></i></a>
+<a href="https://www.linkedin.com/pub/mikel-reid/ba/682/11a"><i class="fa fa-linkedin"></i></a></footer>
+
+<script>$('.test-popup-link').magnificPopup({
+  type: 'image',
+  gallery: {enabled:true}
+  // other options
+});</script>
+</body>
