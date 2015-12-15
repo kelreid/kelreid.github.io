@@ -1,1 +1,121 @@
+<style>
+  body{
+    text-align: center;
+    font-family: "lucida Sans Unicode", sans-serif;
+    background-image: url(https://static.pexels.com/photos/8974/nature-yellow-plant-orange-large.jpg);
+    background-size: contain;
+  }
+  a {
+    color: #de6900;
+    font-size: 30px;
+  }
+  
+  a:visited {
+    color: #d41600;
+  }
+  
+  a:hover {
+    color: #a33400;
+    
+  }
+      
+  h1 { 
+    color: white;
+   font-family: 'Condiment', cursive;
+  }
+  
+  p {
+    color: white;
+  font-family: 'Hind Vadodara', sans-serif;
+  }
 
+  header {
+    padding: 110px;
+     }
+
+  footer {
+ padding: 40px;
+  }
+
+ #what-i-do {
+    background-color: white;
+    overflow: hidden;
+    padding: 50px;
+  }
+
+   #how-i-work {
+    background: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/old_map.png);
+    padding: 20px;
+    overflow: hidden;
+
+  }
+
+ #latest-work {
+      background-color: #05221d 0.5;
+      padding: 40px;
+      
+    }
+
+    #latest-work img {
+      border: 5px inset #a33400;
+    }
+
+    #latest-work h1 {
+      color: #de6900;
+    }
+
+  .two-thirds {
+    width: 580px;
+    float: left;
+    text-align: justify;
+    margin-right: 20px;
+
+  }
+  .one-third {
+    width: 300px;
+    float: left;
+    text-align: justify;
+  }
+
+  .container {
+    width: 900px;
+    margin: 0 auto;
+  }
+
+  .container h1{
+    color: #071516;
+
+  }
+
+   
+
+  article {
+    background-image: 
+
+background: #fe8c00; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #fe8c00 , #f83600); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #fe8c00 , #f83600); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        ;
+    height: 180px;
+    width: 280px;
+    float: left;
+    margin: 5px;
+    border-radius: 3px;
+    padding: 5px;
+  }
+  .nav li {
+    float: auto;
+    float: auto;
+    font-size: 15px;
+    display: inline;
+  }
+
+  .nav a {
+    color: #de6900;
+  }
+
+  header section {
+    background-color: white;
+  }
+
+  </style>
