@@ -25,6 +25,10 @@
    font-family: 'Condiment', cursive;
   }
   
+  h2 {
+    font-size: 20px;
+     font-family: 'Condiment', cursive;
+  }
   p {
     color: white;
   font-family: 'Hind Vadodara', sans-serif;
@@ -61,7 +65,7 @@
       border: 5px inset #a33400;
     }
 
-    #latest-work h1 {
+    #latest-work h2 {
       color: #de6900;
     }
 
@@ -83,7 +87,7 @@
     margin: 0 auto;
   }
 
-  .container h1{
+  .container h2{
     color: #071516;
 
   }
