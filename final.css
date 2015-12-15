@@ -25,7 +25,7 @@
 }
 
 .jumbotron h1 {
-  color: #fff;
+  color: #000066;
   font-size: 48px;  
   font-family: 'Marck Script', cursive;
   font-weight: bold;
@@ -65,7 +65,8 @@
 
 .neighborhood-guides p{
      font-size: 15px;
-    margin-bottom: 13px;    
+    margin-bottom: 13px;
+    color: #000066;    
 }
 
 footer {
@@ -73,3 +74,4 @@ footer {
     height: 250px;
   background-repeat: no-repeat;
   background-size: cover;
+}
